@@ -3,7 +3,9 @@ package com.example.demo;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+//@Component
+//@ConfigurationProperties
+//@PropertySource("file:myfile.properties")
 @Entity
 @Table(name="entities")
 public class Entitiesclass {
